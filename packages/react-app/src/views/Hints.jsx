@@ -79,7 +79,7 @@ export default function Hints({yourLocalBalance, mainnetProvider, price, address
       </div>
 
       <div style={{margin:8}}>
-      <div><b>useTokenList()</b> can get you an array of tokens from <a href="https://tokenlists.org" target="_blank">tokenlists.org!</a></div>
+      <div><b>useTokenList()</b> can get you an array of tokens from <a href="https://tokenlists.org" target="_blank" rel="noopener noreferrer">tokenlists.org!</a></div>
       <Select showSearch value={selectedToken}
         onChange={(value) => {
           console.log(`selected ${value}`)
